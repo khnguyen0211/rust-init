@@ -22,10 +22,6 @@ fn divide(a: i32, b: i32) -> Option<i32>{
     }
 }
 
-====================================================================
-
-use core::num;
-
 fn get_input() -> Option<String> {
     // return None;
     return Some("16abc".to_owned());
@@ -71,6 +67,7 @@ fn compute_04() -> Result<i32, String> {
     })?;
     return is_perfect_square(number).ok_or("Error when check is perfect square".to_owned());
 }
+
 fn main() {
     let rs_01: Option<i32> = compute_01();
 

@@ -1,5 +1,3 @@
-use core::num;
-
 fn get_input() -> Option<String> {
     // return None;
     return Some("16abc".to_owned());
